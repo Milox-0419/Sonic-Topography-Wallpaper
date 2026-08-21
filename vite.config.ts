@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Sonic-Topography-Wallpaper/',
+    base: '/music/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
